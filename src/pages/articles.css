@@ -1,0 +1,23 @@
+.add-imgs {
+    width: 20%;
+    margin-left: 0;
+    text-align: left;
+    float: left;
+}
+.add-text {
+    width: 65%;
+    margin-right: 0;
+    margin-left: 5px;
+    text-align: left;
+    float: left;
+}
+.add-titles {
+    font-weight: bold;
+}
+.add-labels {
+    color: gray;
+    text-align: center;
+}
+ul {
+    list-style-type: square;
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">E-Rehab</string>
+    <string name="title_activity_main">E-Rehab</string>
+    <string name="package_name">com.eRehab</string>
+    <string name="custom_url_scheme">com.eRehab</string>
+</resources>
