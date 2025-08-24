@@ -1,9 +1,9 @@
 import React, { useContext, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import {auth , db } from "../firebase";
+// import {auth , db } from "../firebase";
 import {useHistory } from 'react-router-dom'
-import { createUserWithEmailAndPassword } from "firebase/auth";
-import './Form.css';
+// import { createUserWithEmailAndPassword } from "firebase/auth";
+import '../Form.css';
 import {
   IonBackButton, 
   IonButtons, 
@@ -59,31 +59,31 @@ const SignUp = () => {
     }
 
     // write to database
-    createUserWithEmailAndPassword(auth , email , password)
-      .then((res) => {
-        const info = {
-          email : email,
-          name : name,
-          surname : surname,
-          username : username,
-          addictionType : addictionType,
-          userID : res.user.uid
-        };
-        db.doc(`Users/${res.user.uid}`).set(info).then((res) => {
-            console.log("from firestore", res);
-            setShowLoading(false);
-            history.push("/Login")
-          })
-          .catch((error) => {
-            console.log(error);
-            setShowLoading(true);
-          });
-        setShowLoading(false);
-      })
-      .catch((error) => {
-        alert(error.message);
-        setShowLoading(false);
-      });
+    // createUserWithEmailAndPassword(auth , email , password)
+    //   .then((res) => {
+    //     const info = {
+    //       email : email,
+    //       name : name,
+    //       surname : surname,
+    //       username : username,
+    //       addictionType : addictionType,
+    //       userID : res.user.uid
+    //     };
+    //     db.doc(`Users/${res.user.uid}`).set(info).then((res) => {
+    //         console.log("from firestore", res);
+    //         setShowLoading(false);
+    //         history.push("/Login")
+    //       })
+    //       .catch((error) => {
+    //         console.log(error);
+    //         setShowLoading(true);
+    //       });
+    //     setShowLoading(false);
+    //   })
+    //   .catch((error) => {
+    //     alert(error.message);
+    //     setShowLoading(false);
+    //   });
   }; 
 
   return (
@@ -91,7 +91,6 @@ const SignUp = () => {
     <IonHeader>
       <IonToolbar color="light">
         <IonButtons slot="start">
-          {/* <IonBackButton defaultHref={`/`} /> */}
         </IonButtons>
         <IonTitle>Sign up</IonTitle>
       </IonToolbar>

@@ -1,7 +1,7 @@
 import React, { useState, FormEvent } from 'react';
 import { Link } from 'react-router-dom';
-import { auth } from "../firebase";
-import { sendPasswordResetEmail } from "firebase/auth";
+// import { auth } from "../firebase";
+// import { sendPasswordResetEmail } from "firebase/auth";
 import {
   IonHeader,
   IonToolbar,
@@ -15,7 +15,8 @@ import {
   IonPage,
   IonButtons,
   IonBackButton,
-  IonLoading
+  IonLoading,
+  IonImg
 } from "@ionic/react";
 
 const ResetPassword = () => {
@@ -27,34 +28,30 @@ const ResetPassword = () => {
     e.preventDefault();
     setShowLoading(true)
 
-    await sendPasswordResetEmail(auth, email).then((a) => {
-      alert("email sent");
-      setShowLoading(false);
-    })
-    .catch((error) => {
-      var errorCode = error.code;
-        var errorMessage = error.message;
-        if (errorCode == 'auth/invalid-email') {
-          alert(errorMessage);
-        } else if (errorCode == 'auth/user-not-found') {
-          alert(errorMessage);
-        }
-        console.log(error);
-      });
+    // await sendPasswordResetEmail(auth, email).then((a) => {
+    //   alert("email sent");
+    //   setShowLoading(false);
+    // })
+    // .catch((error) => {
+    //   var errorCode = error.code;
+    //     var errorMessage = error.message;
+    //     if (errorCode == 'auth/invalid-email') {
+    //       alert(errorMessage);
+    //     } else if (errorCode == 'auth/user-not-found') {
+    //       alert(errorMessage);
+    //     }
+    //     console.log(error);
+    //   });
     }
 
   return (
   <IonPage>
-    <IonHeader>
-      <IonToolbar color="light">
-        <IonButtons slot="start">
-          <IonBackButton defaultHref={`/`} />
-        </IonButtons>
-        <IonTitle>Reset Password</IonTitle>
-      </IonToolbar>
-    </IonHeader>
     <IonContent className="form">
     <IonLoading isOpen={showLoading} message={text}  onDidDismiss={() => setShowLoading(false)}/>
+      <IonImg 
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYPR9Dj06EkTsKiDfkxk_q5EZ6BQ_AYYG4TQ&s"
+        alt="Organisation Logo"
+      />
       <form onSubmit={e => handleSubmit(e)} action="post">
         <IonList>
           <IonItem>

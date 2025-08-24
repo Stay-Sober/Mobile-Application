@@ -61,16 +61,7 @@ const Tab2 = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-      <div className="App">
-      <Bottom activeNote = {getActiveNote()} onUpdateNote={onUpdateNote}/>
-      <Top
-      notes={notes} 
-      onAddNote={onAddNote} 
-      onDeleteNote={onDeleteNote}
-      activeNote={activeNote}
-      setActiveNote={setActiveNote}
-      />
-    </div>
+      
       </IonContent > 
     </IonPage>
   );

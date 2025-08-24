@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
-import { doc, updateDoc , getDoc } from "firebase/firestore";
-import {db } from "../firebase"
-import { getAuth } from "firebase/auth";
+import Articles from './Articles';
+// import { doc, updateDoc , getDoc } from "firebase/firestore";
+// import {db } from "../firebase"
+// import { getAuth } from "firebase/auth";
 import {
   query,
   collection,
@@ -56,15 +57,15 @@ const Tab3 = () => {
   const [showLoading , setShowLoading] = useState(false)
   let email;
   let id;
-  const auth = getAuth();
-  const user = auth.currentUser;
+  // const auth = getAuth();
+  // const user = auth.currentUser;
 
-  if (user !== null) {
+  // if (user !== null) {
     
-    email = user.email;
-    id = user.uid;
-    console.log(id);
-  }
+  //   email = user.email;
+  //   id = user.uid;
+  //   console.log(id);
+  // }
 
   const handleChange = e => setUpImg(URL.createObjectURL(e.target.files[0]))
 
@@ -72,22 +73,22 @@ const Tab3 = () => {
     setShowLoading(true);
     e.preventDefault();
 
-    const info = {
-      name: name,
-      surname: surname,
-      username: username,
-      addictionType: addictionType
-    };
-    db.doc(`Users/${id}`)
-      .set(info)
-      .then((res) => {
-        setShowLoading(false)
-        setActive(false)
-      })
-      .catch((error) => {
-        alert(error);
-        setShowLoading(false)
-      })
+  //   const info = {
+  //     name: name,
+  //     surname: surname,
+  //     username: username,
+  //     addictionType: addictionType
+  //   };
+  //   db.doc(`Users/${id}`)
+  //     .set(info)
+  //     .then((res) => {
+  //       setShowLoading(false)
+  //       setActive(false)
+  //     })
+  //     .catch((error) => {
+  //       alert(error);
+  //       setShowLoading(false)
+  //     })
   };
 
   /* const UserInfoRef = doc(db , "users" , `${id}`)

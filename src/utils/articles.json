@@ -1,0 +1,173 @@
+{
+  "articles": [
+    {
+      "title": "Crystal Meth",
+      "description": "Crystal meth is short for crystal methamphetamine. It is just one form of the drug methamphetamine. Methamphetamine is a white crystalline drug that people take by snorting, smoking, injecting, or even orally. It creates a false sense of happiness and well-being, leading to a strong desire for repeated use.",
+      "effects": {
+        "desired": [
+          "Rush of confidence, hyperactivity, and energy",
+          "Decreased appetite"
+        ],
+        "sideEffects": [
+          "Loss of appetite",
+          "Severe weight loss",
+          "Insomnia",
+          "Mood swings"
+        ]
+      },
+      "withdrawals": [
+        "Depression",
+        "Cravings",
+        "Anxiety",
+        "Sleep issues",
+        "Increased appetite"
+      ],
+      "contacts": {
+        "name": "Houghton House",
+        "address": "432 York Ave, Randburg 2194, Johannesburg, South Africa",
+        "phone": "011 787 9142",
+        "emergencyMobile": "079 770 7532"
+      },
+      "image": "https://d.newsweek.com/en/full/1565582/drugs-stock.jpg?w=1600&h=1200&l=0&t=0&q=88&f=aa782f58b26525acfe65e5580161ceb5"
+    },
+    {
+      "title": "Heroin",
+      "description": "Heroin is a very addictive drug made from morphine, derived from the opium poppy plant. It can appear as white or brown powder, or black tar. Heroin is an opioid and produces euphoria but leads to dependence and cravings.",
+      "effects": "Creates intense pleasure but leaves users with depressed mood and cravings after the high wears off.",
+      "withdrawals": [
+        "Nausea",
+        "Vomiting",
+        "Sweats",
+        "Chills",
+        "Muscle aches",
+        "Restlessness",
+        "Agitation"
+      ],
+      "contacts": {
+        "address": "432 York Ave, Randburg 2194, Johannesburg, Gauteng, South Africa",
+        "phone": "011 787 9142",
+        "emergencyMobile": "079 770 7532"
+      },
+      "image": "https://www.verywellmind.com/thmb/lsFmMvHcfL8Y78dska1FYqsfYlI=/500x350/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-951636492-64ab53c465c4447cb67f6c704ed0fa55.jpg"
+    },
+    {
+      "title": "Cocaine",
+      "description": "Cocaine is a powerfully addictive stimulant made from coca leaves. As a street drug it appears as a fine, white powder. It elevates dopamine levels, causing euphoria and energy but also carries severe health risks.",
+      "effects": {
+        "shortTerm": [
+          "Extreme happiness",
+          "Energy",
+          "Alertness"
+        ],
+        "longTerm": [
+          "Nasal damage (snorting)",
+          "Lung issues (smoking)",
+          "Bowel decay (oral use)",
+          "Infections & collapsed veins (injection)"
+        ]
+      },
+      "withdrawals": [
+        "Fatigue",
+        "Depression",
+        "Anxiety",
+        "Nightmares",
+        "Cravings"
+      ],
+      "contacts": {
+        "UK": "0800 955 4357",
+        "SA": "081 444 7000",
+        "email": "Help@WeDoRecover.com"
+      },
+      "image": "https://post.healthline.com/wp-content/uploads/2019/07/Cocaine_732x549-thumbnail.jpg"
+    },
+    {
+      "title": "Nicotine",
+      "description": "Nicotine is a highly addictive stimulant found mostly in tobacco but also in tomatoes, eggplants, and potatoes. Cigarettes deliver nicotine rapidly through inhalation, reinforcing addiction.",
+      "effects": "Provides stimulation and relaxation but causes strong dependence.",
+      "withdrawals": [
+        "Anxiety",
+        "Depression",
+        "Insomnia",
+        "Cravings",
+        "Concentration issues"
+      ],
+      "contacts": {
+        "phone": "021 949 5941",
+        "cell": "082 745 7779",
+        "fax": "086 501 8970",
+        "email": "info@stopsmokingclinic.co.za",
+        "support": "support@stopsmokingclinic.co.za"
+      },
+      "image": "https://www.news-medical.net/image.axd?picture=2021%2F3%2Fshutterstock_1709594734.jpg"
+    },
+    {
+      "title": "Alcohol",
+      "description": "Alcohol is one of the most commonly used addictive substances worldwide. Some people can moderate, but others develop alcoholism, with negative personal and social consequences.",
+      "effects": "Impaired judgment, health risks, addiction, and social consequences.",
+      "withdrawals": [
+        "Tremors",
+        "Anxiety",
+        "Sweating",
+        "Insomnia",
+        "Seizures (severe cases)"
+      ],
+      "contacts": {},
+      "image": "https://familydoctor.org/wp-content/uploads/2000/09/40913444_l.jpg"
+    },
+    {
+      "title": "Ecstasy",
+      "description": "Ecstasy (Molly) is a synthetic drug with stimulant and hallucinogenic effects. It creates emotional warmth, increased energy, and sensory distortions. Originally a club drug, its use has spread more widely.",
+      "effects": {
+        "positive": [
+          "Energy boost",
+          "Euphoria",
+          "Emotional warmth"
+        ],
+        "adverse": [
+          "Confusion",
+          "Anxiety",
+          "Insomnia",
+          "Sweating",
+          "Nausea"
+        ]
+      },
+      "withdrawals": [
+        "Mood swings",
+        "Paranoia",
+        "Loss of appetite",
+        "Irritability",
+        "Depression"
+      ],
+      "contacts": {
+        "name": "Houghton House",
+        "address": "432 York Ave, Randburg 2194, Johannesburg, South Africa",
+        "phone": "011 787 9142",
+        "emergencyMobile": "079 770 7532"
+      },
+      "image": "https://images.ctfassets.net/ip74mqmfgvqf/2sXPaaFQnuI0wOEYKEMmQw/303700804342da3f63786217f0b1892d/FRANK_drug_image_ecstasy.jpg"
+    },
+    {
+      "title": "Amphetamine",
+      "description": "Amphetamine is a stimulant drug usually seen as amphetamine sulfate (Benzedrine). It enhances alertness, confidence, and reduces fatigue, but chronic use leads to dependence.",
+      "effects": [
+        "Euphoria",
+        "Wakefulness",
+        "Alertness",
+        "Improved concentration"
+      ],
+      "withdrawals": [
+        "Fatigue",
+        "Sleep disturbances",
+        "Increased appetite",
+        "Depression"
+      ],
+      "contacts": {
+        "name": "Houghton House",
+        "address": "432 York Ave, Randburg 2194, Johannesburg, South Africa",
+        "phone": "011 787 9142",
+        "emergencyMobile": "079 770 7532"
+      },
+      "image": "https://cdn-prod.medicalnewstoday.com/content/images/articles/221/221211/amphetamine.jpg"
+    }
+  ]
+}
